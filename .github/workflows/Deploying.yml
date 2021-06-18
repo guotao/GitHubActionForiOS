@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v1
-#       - name: Install gpg
+#       - name: Install gpg2
 #         run: brew install gnupg
       - name: Setup provisioning profile
 #         env:
