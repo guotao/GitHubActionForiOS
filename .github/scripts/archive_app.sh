@@ -2,7 +2,7 @@
 
 set -eo pipefail
 
-xcodebuild -workspace Runner.xcworkspace \
+xcodebuild -workspace githubAction.xcworkspace \
             -scheme githubAction\
             -sdk iphoneos \
             -configuration AppStoreDistribution \
