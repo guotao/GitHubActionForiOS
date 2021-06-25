@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v1
-#       - name: Install gpg
+#       - name: Install gpg2
 #         run: brew install gnupg
       - name: Setup dev provisioning profile
         run: ./.github/secrets/decrypt_secrets-dev.sh
